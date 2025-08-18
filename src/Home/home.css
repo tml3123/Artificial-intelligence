@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+}
+.Contenttext .textcon{
+    width: 400px;
+    margin-left: 300px;
+    font-size: 25px;
+    text-align: center;
+}
+.Contenttext .textcon1{
+    width: 400px;
+    margin-left: 150px;
+    font-size: 25px;
+    text-align: center;
+}
+section {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 120px ;
+
+    
+
+}
+.heading{
+
+    width: 620px;
+    color: #e98616;
+    font-size: 60px;
+    font-weight: 100%;
+    margin-left: 250px;
+
+}
+
+.heading1{
+text-align: center; 
+    width: 620px;
+    color: #e98616;
+    font-size: 60px;
+    font-weight: 100%;
+    margin-right: 150px;
+    margin-left: 40px;
+
+}
+
+
+section article {
+    display: flex;
+    width: 1347px;
+    height: 500px;
+}
+
+.card {
+    width: 427px;
+    height: 500px;
+    position: relative;
+    border-radius: 4px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
+}
+
+.card img {
+    width: 100%;    
+    height: 100%;
+    object-fit: cover;
+    transition: scale 0.5s linear 0s;
+}
+
+.card:hover img {
+    scale: 1.25;
+}
+
+.content {
+    width: 346px;
+    height: 102px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    position: absolute;
+    bottom: 10px;
+    left: 25px;
+    z-index: 3;
+}
+
+.content h3 {
+    width: 100%;
+    height: 192px;
+    font-weight: 400;
+    font-size: 32px;
+    color: white;
+}
+
+.content span {
+    color: white;
+    border-bottom: 1.75px solid transparent;    
+    transition: scale 0.5s linear 0s;
+}
+
+.content span a {
+    color: white;
+    text-decoration: none;
+    font-weight: 520;
+    margin-left: 10px;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 1.5px;
+}
+
+.card:hover span {
+    border-bottom: 1.75px solid #007aff;    
+}
+
+.card::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(0deg, #000, transparent);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    transition: background 0.5s linear 0s;
+}
+
+.card:hover::after {
+    background: linear-gradient(0deg, #000, #000000cc, transparent);
+}
+
+.section {
+  padding: 40px 20px;
+  border-bottom: 1px solid #ccc;
+}
+
+.section h2 {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.section p {
+  max-width: 600px;
+  margin: 0 auto 30px;
+  color: #555;
+}
+
+.profiles {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.profile-card {
+  text-align: center;
+}
+
+.profile-card img {
+  width: 120px;
+  height: 120px;
+  border: 2px solid #000;
+  border-radius: 10px;
+  display: block;
+  margin: 0 auto 10px;
+}
+
+.profile-card p {
+  font-weight: bold;
+}
+
+.dimg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px; 
+  text-align: center;
+}
+
+.dimg img {
+  width: 300px; 
+  height: 300px; 
+  border: 2px solid #000; 
+  border-radius: 10px; 
+  margin-top: 40px;
+}
+
+.dimg div {
+  margin-top: 10px; 
+  font-size: 16px; 
+}
+.dhead{
+     color: #e98616;
+    font-size: 60px;
+    text-align: center;
+    margin-top: 90px;
+}
+.dtext{
+        width: 1000px;
+    margin-left: 350px;
+    font-size: 25px;
+ margin-top: 40px;
+    text-align: center;
+}
+.container {
+  /* border: 1px solid #000; */
+  padding: 20px;
+  text-align: center;
+  width: 600px; /* Adjust width as needed */
+  margin: 0 auto;
+}
+.container h1{
+    color: #e98616;
+    margin-top: 40px;
+}
+
+.line {
+  /* border-top: 1px dashed #000; */
+  width: 100%;
+  height: 60%;
+  margin: 20px 20px;
+}
+
+button {
+   
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #e98616;
+ 
+
+}
+
+.copyright {
+  margin-top: 20px;
+  font-size: 12px;
+}

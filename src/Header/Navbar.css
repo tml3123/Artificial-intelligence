@@ -1,0 +1,88 @@
+.headnav {
+  width: 100%;
+  background: #1a1a1a; 
+  padding: 10px 30px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.Hnav {
+    background: white;
+   color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo{
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.logo {
+  height: 120px;
+  width: auto;
+  cursor: pointer;
+  margin-left: 20px;
+}
+
+.Hnav ul {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+  margin: 0;
+  padding: 0;
+}
+
+.Hnav ul li {
+  display: inline-block;
+}
+
+.Hnav ul li a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  color: black;
+  padding: 8px 14px;
+  border-radius: 6px;
+  transition: 0.3s ease;
+}
+
+.Hnav ul li a:hover {
+  background: #e98616;
+  color: #fff;
+}
+
+.Hnav ul li .active {
+  background: #e98616;
+  color: #fff;
+}
+
+@media (max-width: 1200px) {
+  .Hnav {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .Hnav ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .Hnav ul li a {
+    display: block;
+    text-align: center;
+    width: 100%;
+  }
+}
+.Thead{
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    height: 40px;
+    text-align: center;
+
+}
